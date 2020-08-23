@@ -1,0 +1,157 @@
+/* основные свойства */
+
+:root {
+  --primary-text-color: #555555;
+  --primary-background-color: #ffffff;
+  --subtitle-content-color: rgba(157, 164, 189, 0.4);
+  --secondary-text: #303030;
+  --secondary-background: #f7f7f7;
+  --opposite-text-color: #ffffff;
+  --btn-footer-color: #2f303a;
+  --darkbg-text-color: #9da4bd;
+  --footer-background-color: #191c26;
+}
+
+body {
+  font-family: 'Open Sans', 'Verdana', 'Tahoma', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.87;
+  letter-spacing: 0.02em;
+  background: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+
+h2.caption {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.166px;
+  letter-spacing: 0.05em;
+}
+
+li .figure {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.357;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+/* сброс маркеров для всех списков */
+a {
+  text-decoration: none;
+}
+
+a[href^='#form'] {
+  border: 1px solid #ff6c00;
+}
+address {
+  font-style: normal;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+/*  цвета */
+.darkbg {
+  color: var(--darkbg-text-color);
+}
+
+.desk {
+  color: var(--subtitle-content-color);
+}
+
+.staff {
+  background: var(--secondary-background);
+}
+
+li .figure,
+.secondary,
+.about .focused {
+  color: var(--secondary-text);
+}
+
+.flip-slide,
+.temporary .subtitle {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.temporary .caption,
+.temporary {
+  color: var(--opposite-text-color);
+  background: var(--footer-background-color);
+}
+
+.flip-slide:hover,
+.flip-slide:focus {
+  color: var(--opposite-text-color);
+}
+
+.focused.active,
+.focused:hover,
+.focused:focus {
+  color: #ff6c00;
+}
+
+.subtitle,
+.flip-slide {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.363;
+  letter-spacing: 0.1em;
+}
+
+footer.subtitle {
+  letter-spacing: 0.2em;
+}
+
+.price,
+.slogan {
+  font-size: 18px;
+  line-height: 1.666;
+}
+
+p.subtitle {
+  text-transform: uppercase;
+}
+
+.focused {
+  color: var(--opposite-text-color);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.333;
+  letter-spacing: 0.1em;
+}
+
+.contact-link {
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.name {
+  font-size: 18px;
+  line-height: 1.388;
+}
+
+.cause {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.454;
+}
+
+.direction {
+  font-size: 14px;
+  line-height: 1.357;
+  color: #ff6c00;
+}
+
+.contacts {
+  font-size: 18px;
+  line-height: 1.666;
+  letter-spacing: 0.02em;
+  color: var(--darkbg-text-color);
+}
